@@ -48,6 +48,10 @@ h3{
   }
   p{
     font-size:auto;
+    br{
+      display: none;
+    }
+
   }
 @media (max-width:384px) {
   h3{
@@ -57,7 +61,9 @@ h3{
   }
   p{
     font-size:10px;
+
   }
+  
  }
 `
 

@@ -21,7 +21,7 @@ export function LeftImageRightText2(){
     }
   `)
 
-  const image5 ="https://raw.githubusercontent.com/sawanori/tororo_up/master/src/images/FZ2A2863.JPG"
+  const image5 = allFile.edges[0].node.childImageSharp.fluid
  return(
    <LeftImageRightTextWrapper>
      <LeftImage>
