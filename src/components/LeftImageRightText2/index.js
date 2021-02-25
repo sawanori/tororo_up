@@ -21,7 +21,7 @@ export function LeftImageRightText2(){
     }
   `)
 
-  const image5 = allFile.edges[0].node.childImageSharp.fluid
+  const image5 ="https://raw.githubusercontent.com/sawanori/tororo_up/master/src/images/FZ2A2863.JPG"
  return(
    <LeftImageRightTextWrapper>
      <LeftImage>
@@ -31,7 +31,9 @@ export function LeftImageRightText2(){
      <RightText>
        <h3>山芋の多い料理店厳選山芋セット</h3>
       <p>
-      自然薯、長芋（だるま芋）、大和芋一本づつ
+      自然薯、長芋（だるま芋）、大和芋一本づつをご提供。
+      違った食感を楽しみ、あなた好みの芋を見つけてください。
+      
         </p> 
       </RightText>    
    </LeftImageRightTextWrapper>
