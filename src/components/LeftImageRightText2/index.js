@@ -21,12 +21,12 @@ export function LeftImageRightText2(){
     }
   `)
 
-  const image5 = allFile.edges[2].node.childImageSharp.fluid
+  const image5 = allFile.edges[0].node.childImageSharp.fluid
  return(
    <LeftImageRightTextWrapper>
      <LeftImage>
 
-       <Img fluid={image5}/>
+     <Img fluid={image5}/>
      </LeftImage>
      <RightText>
        <h3>山芋の多い料理店厳選山芋セット</h3>
